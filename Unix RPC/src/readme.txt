@@ -16,5 +16,5 @@ We create the Makefile and just type make in the cmd prompt to handle this.
 -- Execution
 Open three terminal tabs and run:
 1. RPC server
-2. Socker server
+2. Socket server
 3. Socket client
