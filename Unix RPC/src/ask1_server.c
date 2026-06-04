@@ -7,7 +7,7 @@
 #include "ask1.h"
 #include "common.h"
 
-//Ερώτημα 1: Μέση Τιμή
+//1: Mean value
 float *
 mean_1_svc(int_vector *argp, struct svc_req *rqstp)
 {
@@ -28,7 +28,7 @@ mean_1_svc(int_vector *argp, struct svc_req *rqstp)
 	return &result;
 }
 
-//Ερώτημα 2: Μέγιστο-Ελάχιστο
+//2: Min - Max
 minmax_result *
 minmax_1_svc(int_vector *argp, struct svc_req *rqstp)
 {
@@ -55,7 +55,7 @@ minmax_1_svc(int_vector *argp, struct svc_req *rqstp)
 	return &result;
 }
 
-//Ερώτημα 3:
+//3: a*Y
 float_vector *
 multiply_1_svc(scalar_vector_input *argp, struct svc_req *rqstp)
 {
